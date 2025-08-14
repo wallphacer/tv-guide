@@ -1,7 +1,8 @@
 class Content:
-    def __init__(self, id: int, type: str, runtime_minutes: int, episodes: int, seasons: int, poster: str, release_date: str):
+    def __init__(self, id: int, title: str, type: str, runtime_minutes: int, episodes: int, seasons: int, poster: str, release_date: str):
         self.id = id
         self.type = type
+        self.title = title
         self.runtime_minutes = runtime_minutes
         self.episodes = episodes
         self.seasons = seasons
