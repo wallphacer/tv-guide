@@ -1,0 +1,14 @@
+DROP SCHEMA "Media" CASCADE;
+CREATE SCHEMA "Media";
+CREATE TABLE "Media".CONTENT
+(
+    "Id"    serial primary key,
+    "Title"        VARCHAR(200) not null,
+	"Type"		VARCHAR(200) not null,
+    "Year"        VARCHAR(20) not null,
+	"Episodes"        int not null,
+	"Runtime_minutes"        int not null,
+	"Poster"			VARCHAR(400)
+
+);
+COMMIT;
