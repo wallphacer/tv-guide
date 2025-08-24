@@ -11,3 +11,13 @@ I wanted something I could just use to control what I wanted to watch, and it wo
 
 ## Genre
 
+## Tasks
+### API
+- Add Content to Liked DB
+- Get Postgres in Docker
+- Get FastApi running in docker
+
+### FrontEnd
+- Search for Content via the API
+- Save Content to Liked via the API
+- Show Liked Content
