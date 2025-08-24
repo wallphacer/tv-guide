@@ -5,31 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7f3d622-1981-49f2-856e-249491313bcd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tv-guide-ui/.postcssrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv-guide-ui/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv-guide-ui/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv-guide-ui/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv-guide-ui/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv-guide-ui/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv-guide-ui/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv-guide-ui/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv-guide-ui/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv-guide-ui/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv-guide-ui/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv-guide-ui/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv-guide-ui/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv-guide-ui/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv-guide-ui/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv-guide-ui/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv-guide-ui/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv-guide-ui/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv-guide-ui/src/setupTests.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv-guide-ui/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv-guide-ui/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tv-guide-ui/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/tv-guide-ui/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tv-guide-ui/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tv-guide-ui/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tv-guide-ui/src/app/content-search-bar/content-search-bar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/tv-guide-ui/src/app/content-search-bar/content-search-bar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tv-guide-ui/src/app/tv-guide-footer/tv-guide-footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/tv-guide-ui/src/app/tv-guide-footer/tv-guide-footer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tv-guide-ui/src/app/tv-guide-footer/tv-guide-footer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tv-guide-ui/src/app/tv-guide-footer/tv-guide-footer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tv-guide-ui/src/app/tv-guide-header/tv-guide-header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/tv-guide-ui/src/app/tv-guide-header/tv-guide-header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tv-guide-ui/src/app/tv-guide-header/tv-guide-header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tv-guide-ui/src/app/tv-guide-header/tv-guide-header.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -73,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1756032294744</updated>
-      <workItem from="1756032296599" duration="1211000" />
+      <workItem from="1756032296599" duration="2670000" />
     </task>
     <servers />
   </component>
