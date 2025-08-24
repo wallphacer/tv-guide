@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7f3d622-1981-49f2-856e-249491313bcd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tv-guide-ui/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tv-guide-ui/src/environments/environment.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv-guide-ui/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/tv-guide-ui/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv-guide-ui/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tv-guide-ui/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv-guide-ui/src/app/content-search-bar/content-search-bar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/tv-guide-ui/src/app/content-search-bar/content-search-bar.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv-guide-ui/src/app/tv-guide-footer/tv-guide-footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/tv-guide-ui/src/app/tv-guide-footer/tv-guide-footer.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv-guide-ui/src/app/tv-guide-footer/tv-guide-footer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tv-guide-ui/src/app/tv-guide-footer/tv-guide-footer.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv-guide-ui/src/app/tv-guide-header/tv-guide-header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/tv-guide-ui/src/app/tv-guide-header/tv-guide-header.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv-guide-ui/src/app/tv-guide-header/tv-guide-header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tv-guide-ui/src/app/tv-guide-header/tv-guide-header.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tv-guide-ui/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/tv-guide-ui/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1756032294744</updated>
-      <workItem from="1756032296599" duration="2670000" />
+      <workItem from="1756032296599" duration="3387000" />
     </task>
     <servers />
   </component>
