@@ -13,8 +13,10 @@ class PostgresAccessor(object):
             )
 
     async def batch_add_content(self, data: dict):
+        print("Adding Batch of Content")
         for entry in data:
             d = Content(1, entry['Title'], entry['Type'], 0, 1, 1, entry['Poster'], entry['Year'])
+            print("Made Content with title : {name}".format(name=entry['Title']))
             await self.add_content(d)
 
     async def add_content(self, content: Content):
@@ -25,17 +27,18 @@ class PostgresAccessor(object):
                 COMMIT;
                 """
         data = (content.title, content.type, content.release_date, content.episodes, content.runtime_minutes, content.poster)
-
+        print("Running Query")
         await self._execute(query, data)
 
     async def get_content(self, title: str):
         query = """
             SELECT * FROM "Media".content
-            WHERE Title = %s;
+            WHERE "Title" ILIKE %s;
         """
-        data = (title,)
-        results = self._execute(query, data)
+        data = ("%{}%".format(title),)
+        results = await self._execute(query, data)
         #TODO: Parse results
+        return results
 
     async def _execute(self, query: str, data: tuple):
         with self.connection.cursor() as cursor:

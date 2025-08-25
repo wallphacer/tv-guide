@@ -25,13 +25,25 @@ def read_root():
 
 # CONTENT
 @app.get("/content/search")
-def search_for_content(title :str, page: int = 1):
+async def search_for_content(title :str, page: int = 1):
     #TODO: Search from the database after adding this content
     #TODO: Ensure content from omdb doesn't get added more than once
     resp =  search(config.get("omdb", "api_key"), title, page)
-    database_connector.batch_add_content(resp['Search'])
+    print("Got Results!")
+    await database_connector.batch_add_content(resp['Search'])
 
     return resp
+
+@app.get("/liked/search/")
+async def search_for_content(title :str):
+    #TODO: Search from the database after adding this content
+    #TODO: Ensure content from omdb doesn't get added more than once
+    resp = await database_connector.get_content(title)
+    print("Got Results!")
+    print(resp)
+    return resp
+
+
 @app.post("/content/{content_id}")
 def add_content_to_list(content_id: int):
     #TODO: Add Users
